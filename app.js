@@ -72,6 +72,8 @@ app.get("/post/:postName",function(req,res){
 
 
 
-app.listen(process.env.PORT || 3006, function() {
+// app.listen(process.env.PORT || 3006, function() {
+app.listen( 3006, function() {
   console.log("Yuhu");
 });
+// <a class="btn btn-outline-success" href="post/<%=posts[i].Title%>">Read More</a>
